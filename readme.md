@@ -1,4 +1,4 @@
- # Node "Hello World" Example
+# Node "Hello World" Example
 
 This repository is a sample hello-world application written with NodeJS. It's purpose is to help new developers practice Dockerising applications.
 
