@@ -12,6 +12,7 @@ pipeline {
                 echo 'Building..'
             }
         }
+
         stage('Test') {
             steps {
                 echo 'Testing..'
@@ -22,11 +23,13 @@ pipeline {
             steps {
                 echo 'Deploying....'
             }
+        }
 
         stage('Deploy STAGING') {
             steps {
                 echo 'Deploying....'
             }
+        }
 
         stage('Deploy PRODUCTION') {
             steps {
